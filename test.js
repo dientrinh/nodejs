@@ -15,3 +15,11 @@ describe('Array', function() {
     });
   });
 });
+
+describe('Array', function() {
+  describe('Demo', function() {
+    it('Test fail', function() {
+      assert.equal(1, 2);
+    });
+  });
+});

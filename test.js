@@ -1,3 +1,4 @@
+var utils = require('./utils');
 var supertest = require("supertest");
 var should = require("should");
 
@@ -20,6 +21,14 @@ describe('Array', function() {
   describe('Demo', function() {
     it('Test fail', function() {
       assert.equal(2, 2);
+    });
+  });
+});
+
+describe('43', function() {
+  describe('Util test', function() {
+    it('Test fail', function() {
+      assert.equal(utils.getNumber(), 5);
     });
   });
 });

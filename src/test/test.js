@@ -1,4 +1,4 @@
-var utils = require('./utils');
+var utils =require('../utils.js');
 var assert = require('chai').assert;
 const chai = require('chai');  
 const chaiHttp = require('chai-http');  
